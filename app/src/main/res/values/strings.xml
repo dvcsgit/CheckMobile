@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="action_clear">清除所有資料</string>
+    <string name="action_edit">編輯</string>
+    <string name="action_info">備註</string>
+    <string name="action_save">儲存</string>
+    <string name="action_take_photo">拍照</string>
+    <string name="action_tel">緊急聯絡人</string>
+    <string name="action_toggle">展開收合</string>
+    <string name="action_upload">上傳</string>
+//??????????
+    <string name="action_download">下載</string>
+
+    <string name="app_name">CheckPDA</string>
+
+    <string name="btn_clear">清除</string>
+
+    <string name="empty_download">請輸入下載相關條件\n再點選 查詢 按鈕。</string>
+    <string name="empty_tel">目前尚未建立緊急聯絡人\n請回系統平台建立相關基礎資料。</string>
+    <string name="empty_upload">目前尚未有資料可供上傳\n請先執行巡檢後再進行上傳。</string>
+
+    <string name="error_card_mapping">找不到有對應此卡號:%s 的管制點</string>
+    <string name="error_field_required">此欄位必填</string>
+    <string name="error_incorrect_password">密碼不正確</string>
+    <string name="error_incorrect_user">帳號不存在</string>
+    <string name="error_invalid_card">無法辨識的卡片</string>
+    <string name="error_qrcode_mapping">找不到有對應標籤資料:\n%s</string>
+
+    <string name="hint_abnormal_other">請輸入異常其他說明</string>
+    <string name="hint_account">請輸入帳號</string>
+    <string name="hint_hand_other">請輸入對策其他說明</string>
+    <string name="hint_password">請輸入密碼</string>
+    <string name="hint_record">請輸入抄表數值</string>
+
+    <string name="lb_action_cancel">取消</string>
+    <string name="lb_action_clear">清除掉所有抄表資料</string>
+    <string name="lb_alert_prefix">警戒值:\n</string>
+    <string name="lb_change_material_prefix">換料:</string>
+    <string name="lb_copy_right" translatable="false">Copyright(c) FTC 2015</string>
+    <string name="lb_delay">遲到</string>
+    <string name="lb_download">下載</string>
+    <string name="lb_drawer_header_general">一般設定</string>
+    <string name="lb_drawer_setting">設定</string>
+    <string name="lb_drawer_sign_out">登出</string>
+    <string name="lb_drawer_uid">識別證綁定</string>
+    <string name="lb_drawer_upload">資料上傳</string>
+    <string name="lb_equip">設備:</string>
+    <string name="lb_error">異常</string>
+    <string name="lb_filter_show_all">全部顯示</string>
+    <string name="lb_filter_show_current">顯示當時段</string>
+    <string name="lb_hint_choice">請選擇</string>
+    <string name="lb_limit_alert_lower">警戒</string>
+    <string name="lb_limit_lower">下限</string>
+    <string name="lb_limit_upper">上限</string>
+    <string name="lb_lock_backup">備機</string>
+    <string name="lb_lock_fix">檢修</string>
+    <string name="lb_lock_stop">停機</string>
+    <string name="lb_login">登入</string>
+    <string name="lb_mform_date_range_prefix">保養起迄:</string>
+    <string name="lb_more_tel">(更多)</string>
+    <string name="lb_normal_date_range_prefix">時段:</string>
+    <string name="lb_not_in_the_time">未於設定時間區間內執行</string>
+    <string name="lb_remark">備註</string>
+    <string name="lb_result_value_empty">尚未輸入</string>
+    <string name="lb_rform_date_range_prefix">預計保養日期:</string>
+    <string name="lb_setting">設定</string>
+    <string name="lb_sys_warn_again">再次確認</string>
+    <string name="lb_tab_mform_check">保養基準</string>
+    <string name="lb_tab_mform_material">換料清單</string>
+    <string name="lb_tab_mform_work_hour">保養工時</string>
+    <string name="lb_tab_rform_material">耗材更換紀錄</string>
+    <string name="lb_tab_rform_remark">工作紀要</string>
+    <string name="lb_tab_rform_working_hour">工時紀錄</string>
+    <string name="lb_tel_prefix">聯絡:</string>
+    <string name="lb_title_bind_user_tag">識別證綁定</string>
+    <string name="lb_title_item_prefix">項目:</string>
+    <string name="lb_title_mform_remark">工作紀要</string>
+    <string name="lb_title_patrol">巡檢作業</string>
+    <string name="lb_title_photo">照片:</string>
+    <string name="lb_title_remark">工作紀要:</string>
+    <string name="lb_title_scan_card">靠卡</string>
+    <string name="lb_type_mform">定保單</string>
+    <string name="lb_type_patrol">巡檢</string>
+    <string name="lb_type_rform">修復單</string>
+
+    <string name="navigation_drawer_close">收合導覽列</string>
+    <string name="navigation_drawer_open">展開導覽列</string>
+
+    <string name="pref_description_enable_log">開啟此設定,能分析追蹤有無異常日誌</string>
+    <string name="pref_description_is_default_except">在下載查詢時,預設勾選[排除已檢查項目]</string>
+    <string name="pref_description_nfc_reverse">當開啟時,讀取的TAG串流會進行反向串接</string>
+    <string name="pref_header_download">下載設定</string>
+    <!-- General process_settings -->
+    <string name="pref_header_general">一般設定</string>
+    <!-- Example settings for Notifications -->
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+    <string-array name="pref_sync_frequency_titles" translatable="false">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="pref_title_enable_log">APP分析</string>
+    <string name="pref_title_is_default_except">排除已檢查項目</string>
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+    <!-- pref nfc setting -->
+    <string name="pref_title_nfc_reverse">啟用卡片反序</string>
+    <string name="pref_title_mform_confirm">啟用定保確認框</string>
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="pref_title_web_ip">伺服器主機</string>
+    <string name="pref_title_web_name">伺服器名稱</string>
+
+    <string name="prefix_mform">定保單</string>
+    <string name="prefix_quantity">數量:</string>
+    <string name="prefix_record">數值:</string>
+    <string name="prefix_rform">修復單</string>
+
+    <string name="request_progress">與主機連線中請稍後</string>
+    <string name="request_progress_waiting">資料上傳中請稍後</string>
+
+    <string name="sys_at_lease_choice_one">請至少選取一筆資料!</string>
+    <string name="sys_bind_user_tag_fail">識別證綁定失敗:同步失敗,請再試一次</string>
+    <string name="sys_bind_user_tag_fail_prefix">識別證綁定失敗:</string>
+    <string name="sys_bind_user_tag_ok">識別證綁定成功</string>
+    <string name="sys_current_progress_filesize">目前處理檔案大小:</string>
+    <string name="sys_download_fail">資料下載失敗 !</string>
+    <string name="sys_download_fail_prefix">失敗原因:</string>
+    <string name="sys_download_ok">資料下載成功</string>
+    <string name="sys_download_prefix">下載中...</string>
+    <string name="sys_error_at_lease_choice">請至少選擇一個異常項目</string>
+    <string name="sys_hand_remark_error_template">請輸入 %s 對策其他說明</string>
+    <string name="sys_msg_upload_confirm">確定要上傳資料嗎?</string>
+    <string name="sys_mutil_mform_warm">此標籤-%s , 有多張定保單,請點選其中一張</string>
+    <string name="sys_not_patrol_basic_data">目前尚未下載巡檢資料,請先執行下載動作!</string>
+    <string name="sys_pack_check_photo">打包檢查結果照片中...</string>
+    <string name="sys_packing_photo">打包到位記錄照片中...</string>
+    <string name="sys_plz_check_internet">請檢查網路是否有連接上</string>
+    <string name="sys_plz_get_tag_in_time_template">請在: %d 秒內,完成靠卡</string>
+    <string name="sys_record_error_confirm">數據有異常,確認嗎?</string>
+    <string name="sys_required_error_reason">請輸入異常原因說明</string>
+    <string name="sys_save_to_db_fail">寫入資料失敗</string>
+    <string name="sys_sure_to_download_these">確定要下載這( %d )筆資料嗎?</string>
+    <string name="sys_title_mform_choice">請選擇定保單</string>
+    <string name="sys_unzip_fail">解壓縮失敗,因找不到解完後的檔案</string>
+    <string name="sys_upload">資料上傳中...</string>
+    <string name="sys_upload_fail">資料上傳失敗 !</string>
+    <string name="sys_upload_fail_prefix">失敗原因:</string>
+    <string name="sys_upload_file_to_server">檔案上傳到主機中...</string>
+    <string name="sys_upload_ok">資料上傳成功 ! 上傳須等資料轉檔才可在Web平台查詢到(最多等5分鐘)</string>
+    <string name="sys_warn_leave_will_remove">若資料未進行上傳,當再次進行下載,資料會清除掉。 若要離開請按【確定】</string>
+    <string name="sys_warn_some_not_save">有資料尚未存檔,確定要離開嗎?</string>
+
+    <string name="system_controlpoint_error_title">無法靠卡原因</string>
+    <!-- General 預設值 -->
+    <string name="system_message_no_data_can_save">沒有資料可以儲存,請先進行檢查</string>
+    <string name="system_message_save_fail">儲存失敗!</string>
+    <string name="system_message_save_success">儲存成功</string>
+    <string name="system_message_set_feel_to_default">基準尚未抄表\n您要將感官項目先設置成 預設正常嗎!?</string>
+    <string name="system_message_sure_to_leave">確定要登出嗎?!</string>
+    <string name="system_message_warning_has_data_not_upload">您有未上傳的資料</string>
+    <string name="system_msg_connection_error">與主機連線失敗,請檢查網路配置</string>
+    <string name="system_msg_fail_prefix">失敗原因:\n</string>
+    <string name="system_msg_unknown_tag">您的卡片無法登入\n 可能沒有下載資料或未設置該帳號允許卡片登入</string>
+    <string name="system_title_download_fail">資料下載失敗 !</string>
+    <string name="system_unpatrol_error_title">未巡檢原因</string>
+
+    <string name="template_actual_arrive_time">到位時間 %1$s ~ %2$s</string>
+    <string name="template_current_progress" translatable="false">(\u0025d / \u0025d) \u0025d </string>
+    <string name="template_download_selected">目前已選取 %d 筆</string>
+    <string name="template_download_total">該條件下共 %d 筆資料。</string>
+    <string name="template_file_progress" translatable="false">( %1$s / %2$s )</string>
+    <string name="template_no_data_can_download">帳號 %1$s 無資料可下載 !</string>
+    <string name="template_progress" translatable="false">(\u0025d / \u0025d)</string>
+    <string name="template_should_arrive_time">應到時間 %1$s ~ %2$s</string>
+
+    <string name="title_activity_download">巡檢資料下載</string>
+    <string name="title_activity_emg_tel">緊急聯絡人</string>
+    <string name="title_activity_execute">執行巡檢</string>
+    <string name="title_activity_mform">定保單</string>
+    <string name="title_activity_sample" translatable="false">SampleActivity</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_sign" translatable="false">SignActivity</string>
+    <string name="title_activity_upload">資料上傳</string>
+    <string name="lb_switch_except">排除已檢查項目</string>
+    <string name="lb_complete_rate">完成度:</string>
+    <string name="lb_switch_all">全選</string>
+    <string name="lb_version">版本</string>
+    <string name="lb_binding_card_hint">請靠人員卡片..等候靠卡中...</string>
+    <string name="lb_sys_no_joblist">目前無派工資料\n請至平台重新派工</string>
+    <string name="lb_sys_no_material">目前無材料資料\n請至平台設定</string>
+    <string name="lb_remove_photo">刪除照片</string>
+    <string name="hint_enter_remark">請輸入備註</string>
+    <string name="lb_error_reason">異常原因</string>
+    <string name="lb_title_material">材料</string>
+    <string name="lb_title_qty">數量</string>
+    <string name="lb_title_should_arrive_time">應該到位時間</string>
+    <string name="lb_title_actual_arrive_time">實際到位時間</string>
+    <string name="lb_title_overtime_error">未在規定時間巡檢原因</string>
+    <string name="lb_title_un_patrol_reason">未巡檢原因</string>
+    <string name="lb_title_working_hours">工時</string>
+    <string name="lb_title_end_date">結束時間</string>
+    <string name="lb_title_begin_date">開始時間</string>
+    <string name="lb_btn_scan_card">進行靠卡</string>
+    <string name="lb_hint_scarn_card_blink">請到管制點進行靠卡動作...</string>
+    <string name="sys_override_arrived_record">此管制點已到位過了,若再到位會再添加一筆到位紀錄,確定嗎?</string>
+    <string name="sys_equip_prefix">設備</string>
+    <string name="sys_cp_prefix">管制點檢查</string>
+    <string name="sys_check_prefix">請執行檢查項目</string>
+    <string name="sys_back_confirm_template">你確定要 %s 嘛?若確定會將項目自動儲存。</string>
+    <string name="sys_plz_choose_cp">請選擇管制點</string>
+    <string name="lb_cp_prefix">管制點:</string>
+    <string name="sys_plz_choose_equip">請選擇設備</string>
+    <string name="sys_pin_lock_correct">密碼正確...解除鎖定中..</string>
+    <string name="sys_pin_lock_fail">錯誤的密碼,鍵盤鎖定中,待幾秒後重試</string>
+    <string name="btn_lock_back">退回</string>
+    <string name="btn_lock_exit">離開</string>
+    <string name="lb_lock_info">此功能已鎖定</string>
+    <string name="lb_lock_info_hint">需輸入密碼解除後才能使用</string>
+    <string name="btn_update">更新</string>
+
+    <string name="hint_record_text">請輸入200字內的描述</string>
+    <string name="lb_approve">上傳後直接呈核</string>
+    <string name="pref_header_mform">定保設定</string>
+    <string name="pref_description_mform_confirm">啟用後當感官項目異常,會先出現確認視窗</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="system_dialog_title">Custom Title</string>
+
+
+
+    //attr
+
+</resources>
+

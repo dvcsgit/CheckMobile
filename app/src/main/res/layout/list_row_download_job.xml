@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dip">
+
+	<!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+
+
+        <CheckBox
+            android:id="@+id/cb_jobId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingRight="6dp" />        
+        
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/area_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/area_except"
+            android:layout_marginTop="@dimen/text_margin_small"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/lb_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="lb_description .... exapmle"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginBottom="@dimen/text_margin_small"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_complete_rate"
+                    android:textSize="@dimen/text_size_small"/>
+
+                <TextView
+                    android:id="@+id/lb_complete_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lb_time_range"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                tools:text="時段:xx:xx ~ xx:xx"
+                android:textColor="@color/blue_400"
+                android:textSize="@dimen/text_size_micro" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/area_except"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="3dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Switch
+                android:id="@+id/switch_except"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/thumbnail"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lb_switch_except" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

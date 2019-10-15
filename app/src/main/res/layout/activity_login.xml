@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/area_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/lb_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="设备保养"
+                android:textColor="@color/grey_100"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_form_rounded"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/txtAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/text_margin_small"
+                        android:layout_marginLeft="@dimen/text_margin_medium"
+                        android:layout_marginRight="@dimen/text_margin_medium"
+                        android:layout_marginTop="@dimen/text_margin_medium"
+                        android:drawableLeft="@drawable/ic_user"
+                        android:drawablePadding="@dimen/drawable_padding"
+                        android:hint="@string/hint_account"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/txtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/text_margin_small"
+                        android:layout_marginLeft="@dimen/text_margin_medium"
+                        android:layout_marginRight="@dimen/text_margin_medium"
+                        android:layout_marginTop="@dimen/text_margin_medium"
+                        android:drawableLeft="@drawable/ic_password"
+                        android:drawablePadding="@dimen/drawable_padding"
+                        android:hint="@string/hint_password"
+                        android:imeActionId="@+id/login"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:maxLength="15"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/BaseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Login"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0sp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_download"
+                    style="@style/BaseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_action_download"
+                    android:text="Download" />
+
+                <Button
+                    android:id="@+id/btn_setting"
+                    style="@style/BaseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_action_settings"
+                    android:text="Setting" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin_large"
+                android:gravity="center_horizontal"
+                android:text="@string/lb_copy_right"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lb_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin_medium"
+                android:gravity="center_horizontal"
+                android:text="v0.0.0"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

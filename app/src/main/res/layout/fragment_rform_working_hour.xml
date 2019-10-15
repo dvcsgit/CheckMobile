@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin_large"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_title_begin_date" />
+
+                <TextView
+                    android:id="@+id/lb_begin_date"
+                    style="@style/BaseEditView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:layout_marginLeft="@dimen/text_margin_medium"
+                    android:layout_marginRight="@dimen/text_margin_medium"
+                    android:layout_marginTop="@dimen/text_margin_medium"
+                    android:background="@drawable/rounded_edit_view"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:drawablePadding="@dimen/drawable_padding" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin_large"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_title_end_date" />
+
+                <TextView
+                    android:id="@+id/lb_end_date"
+                    style="@style/BaseEditView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:layout_marginLeft="@dimen/text_margin_medium"
+                    android:layout_marginRight="@dimen/text_margin_medium"
+                    android:layout_marginTop="@dimen/text_margin_medium"
+                    android:background="@drawable/rounded_edit_view"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:drawablePadding="@dimen/drawable_padding" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin_large"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_title_working_hours" />
+
+                <EditText
+                    android:id="@+id/txt_work_hour"
+                    style="@style/BaseEditView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin_medium"
+                    android:layout_marginRight="@dimen/text_margin_medium"
+                    android:background="@drawable/rounded_edit_view"
+                    android:digits="0123456789."
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    custom:cardCornerRadius="0dp"
+    custom:cardUseCompatPadding="false"
+    custom:contentPaddingBottom="0dp"
+    custom:contentPaddingTop="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin_large"
+        android:layout_marginRight="@dimen/text_margin_large"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/text_padding_large"
+        android:paddingTop="@dimen/text_padding_large">
+
+        <LinearLayout
+            android:id="@+id/area_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lb_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/text_margin_small"
+                    android:text="*"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lb_change">
+
+                    <TextView
+                        android:id="@+id/lb_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/lb_unit"
+                        android:textSize="@dimen/text_size_medium"
+                        android:textStyle="bold"
+                        tools:text="ID-MATERIALNAME" />
+
+                </RelativeLayout>
+
+                <!--<TextView-->
+                <!--android:id="@+id/lb_description"-->
+                <!--android:layout_toRightOf="@+id/img_remark"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--tools:text="檢查項目xxxxxxxxxxxxxxxxxxxxxxxxxxxx"-->
+                <!---->
+                <!--android:textSize="@dimen/text_size_medium"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/lb_unit"-->
+                <!--android:layout_toRightOf="@+id/lb_description"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="@dimen/text_margin_small"-->
+                <!--android:layout_width="wrap_content"-->
+
+                <!--android:layout_height="wrap_content"-->
+                <!--tools:text="(單位)"-->
+                <!--android:textColor="@color/grey_500"-->
+                <!--android:textSize="@dimen/text_size_small" />-->
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/horizontal_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/text_padding_large"
+                android:background="@color/grey_200" />
+
+            <!-- 感官 -->
+
+            <!-- 數據 -->
+            <LinearLayout
+                android:id="@+id/area_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin_medium"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lb_result_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    tools:text="數據值: 1234.2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

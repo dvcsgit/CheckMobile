@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lv_execute_patrol"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_padding_top_bottom"
+    android:paddingLeft="@dimen/dialog_padding_left_right"
+    android:paddingRight="@dimen/dialog_padding_left_right"
+    android:paddingTop="@dimen/dialog_padding_top_bottom">
+
+    <TextView
+        style="@style/AbnormalFormTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lb_title_qty" />
+
+    <Spinner
+        android:id="@+id/sp_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+</LinearLayout>

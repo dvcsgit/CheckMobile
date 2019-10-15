@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- 給ListView單筆資料列 -->
+    <dimen name="list_row_margin">8dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_extra_micro">12.0sp</dimen>
+    <dimen name="text_size_micro">14.0sp</dimen>
+    <dimen name="text_size_small">16.0sp</dimen>
+    <dimen name="text_size_medium">18.0sp</dimen>
+    <dimen name="text_size_large">20.0sp</dimen>
+    <dimen name="text_size_x_large">26.0sp</dimen>
+    <dimen name="text_size_dayum">38.0sp</dimen>
+
+    <!-- divider sizes -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_width">1dp</dimen>
+
+    <!-- margin sizes -->
+    <dimen name="text_margin_small">3dp</dimen>
+    <dimen name="text_margin_medium">5dp</dimen>
+    <dimen name="text_margin_large">7dp</dimen>
+    <dimen name="text_margin_x_large">9dp</dimen>
+    <dimen name="text_margin_dayum">11dp</dimen>
+
+    <!-- padding sizes -->
+    <dimen name="text_padding_small">3dp</dimen>
+    <dimen name="text_padding_medium">5dp</dimen>
+    <dimen name="text_padding_large">7dp</dimen>
+
+    <!-- navdrawer sizes -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navdrawer_temp_width">304dp</dimen>
+    <dimen name="navdrawer_chosen_account_height">140dp</dimen>
+    <dimen name="navdrawer_item_padding">16dp</dimen>
+    <dimen name="navdrawer_item_height">48dp</dimen>
+    <dimen name="navdrawer_item_icon">24dp</dimen>
+    <dimen name="navdrawer_item_text_size">@dimen/text_size_medium</dimen>
+    <dimen name="navdrawer_profile_image_size">40dp</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_margin">9dip</dimen>
+    <dimen name="dialog_padding_left_right">16dip</dimen>
+    <dimen name="dialog_padding_top_bottom">8dip</dimen>
+    <!--圓角效果-->
+    <dimen name="corner_radius">1dp</dimen>
+
+    <dimen name="list_row_padding">10dp</dimen>
+
+    <!--上方導覽列-->
+    <dimen name="nav_corner_radius">20dp</dimen>
+
+
+    <!--抄表下方列間距-->
+    <dimen name="check_detail_margin">10dp</dimen>
+
+    <dimen name="floating_window_button_height">70dp</dimen>
+
+    <!--fragment top info -->
+    <dimen name="frg_top_info_padding_left_right">10dip</dimen>
+    <dimen name="frg_top_info_padding_top_bottom">5dip</dimen>
+
+
+    <!--上方選單區塊 (抄表使用) -->
+    <dimen name="top_nav_button_size">40dp</dimen>
+    <dimen name="check_record_margin">20dp</dimen>
+    <dimen name="sp_arrow_padding">20dp</dimen>
+
+
+    <dimen name="drawable_padding">20dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="check_image_size">40dp</dimen>
+    <dimen name="check_remark_image_size">28dp</dimen>
+    <dimen name="status_bar_width">8dp</dimen>
+    <dimen name="contentInsetStart">16dp</dimen>
+
+
+</resources>

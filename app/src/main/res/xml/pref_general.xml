@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <PreferenceCategory android:title="@string/pref_header_general">
+        <EditTextPreference
+            android:key="KEY_WEB_IP"
+            android:title="@string/pref_title_web_ip"
+            android:capitalize="words"
+            android:inputType="textCapCharacters"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:defaultValue="@string/pref_web_ip_default"
+            android:singleLine="true">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="KEY_WEB_NAME"
+            android:title="@string/pref_title_web_name"
+            android:capitalize="words"
+            android:inputType="textCapCharacters"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:defaultValue="@string/pref_web_name_default"
+            android:singleLine="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_menu_upload"
+            android:title="@string/lb_drawer_upload" />
+    </group>
+
+    <item android:title="@string/lb_drawer_header_general">
+        <menu>
+            <item android:id="@+id/nav_uid"
+                android:icon="@drawable/ic_drawer_uid"
+                android:title="@string/lb_drawer_uid" />
+            <item android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_setting"
+                android:title="@string/lb_drawer_setting" />
+            <item android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_menu_signout"
+                android:title="@string/lb_drawer_sign_out" />
+        </menu>
+    </item>
+
+</menu>

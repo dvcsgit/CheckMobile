@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    custom:cardCornerRadius="0dp"
+    custom:cardUseCompatPadding="false"
+    custom:contentPaddingBottom="0dp"
+    custom:contentPaddingTop="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_jobId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <RelativeLayout
+            android:id="@+id/area_repair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:padding="@dimen/text_padding_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin_small"
+                android:layout_toLeftOf="@+id/arc_progress"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lb_form_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/text_margin_medium"
+                        android:background="@drawable/nav_btn_rounded_selected"
+                        android:padding="5dp"
+                        android:text="@string/prefix_rform"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/lb_vhno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/text_size_medium"
+                        android:textStyle="bold"
+                        tools:text="M1703003-0018" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/lb_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="5S整合一處第一清潔區-1M001"
+                    android:textSize="@dimen/text_size_small"
+                    android:layout_marginBottom="@dimen/text_margin_small" />
+
+                <TextView
+                    android:id="@+id/lb_equip_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="lb_equip_info" />
+
+                <TextView
+                    android:id="@+id/lb_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="lb_description" />
+
+                <TextView
+                    android:id="@+id/lb_part_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="lb_part_description" />
+
+                <TextView
+                    android:id="@+id/lb_date_range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/text_margin_small"
+                    android:textColor="@color/primary_default"
+                    android:textSize="@dimen/text_size_micro"
+                    tools:text="lb_date_range" />
+
+            </LinearLayout>
+
+            <com.jfdimarzio.check.widget.ArcProgress
+                android:id="@+id/arc_progress"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/text_margin_large"
+                android:gravity="center_vertical"
+                custom:arc_bottom_text="(0/0)"
+                custom:arc_bottom_text_size="@dimen/text_size_micro"
+                custom:arc_finished_color="@color/result_ok"
+                custom:arc_suffix_text_size="@dimen/text_size_micro"
+                custom:arc_text_color="@color/result_default"
+                custom:arc_unfinished_color="@color/progress_default" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
